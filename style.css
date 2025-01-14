@@ -87,6 +87,9 @@ a {
 }
 
 .content-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
     border: 1px solid green;
     padding: 20px;
 }
