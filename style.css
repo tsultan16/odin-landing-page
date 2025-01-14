@@ -33,6 +33,7 @@ body {
 
 .header-left {
     font-size: 24px;
+    font-weight: 900;
 }
 
 .header-links {
@@ -53,8 +54,8 @@ a {
     border: 1px solid blue;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
     display: flex;
     justify-content: space-between;
@@ -63,14 +64,13 @@ a {
 .hero-main {
 
     border: 1px solid red;
-    height: 200px;
-
-    /* width: 400px; */
+    height: 300px;
+    width: 400px; 
 }
 
 .hero-image {
     background-color: darkgrey;
-    height: 200px;
+    height: 300px;
     width: 500px;
 
 }
@@ -78,13 +78,13 @@ a {
 .hero-main-text {
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .hero-button {
@@ -101,6 +101,11 @@ a {
     background-color: white;
 }
 
+.content-1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .content-title {
     border: 1px solid green;
     font-size: 36px;
@@ -111,8 +116,26 @@ a {
     padding: 20px;
 }
 
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.image-item {
+    color: #1F2937;
+    max-width: 140px;
+    text-align: center;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+}
+
 .content-2 {
     background-color: #E5E7EB;
+    padding: 120px 140px;
 }
 
 .quote-section {
