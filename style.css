@@ -10,7 +10,7 @@ body {
 
 }
 
-.header, .hero, .content, .footer {
+.header, .hero, .content-1, .content-2, .footer {
     padding: 0 50px; 
     /* padding-left: 10px; */
     /* padding-right: 10px; */
@@ -19,12 +19,6 @@ body {
 
 .header, .footer {
     background-color: #1F2937;
-}
-
-
-.content {
-    border: 1px solid white;
-
 }
 
 
@@ -88,18 +82,27 @@ a {
     flex-shrink: 0;
 }
 
+.content-1 {
+    background-color: white;
+}
+
 .content-title {
     border: 1px solid green;
-    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.content-2 {
+    background-color: #E5E7EB;
 }
 
 .quote-section {
-    border: 1px solid blue;
-    font-size: 36px;
-    font-style: italic;
-    background-color: #E5E7EB;
     color: #1F2937
 }
 
+.quote-text {
+    border: 1px solid blue;
+    font-size: 36px;
+    font-style: italic;
+}
   
 
