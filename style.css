@@ -10,7 +10,7 @@ body {
 
 }
 
-.header, .hero, .content-1, .content-2, .footer {
+.header, .hero, .content-1, .content-2, .content-3, .footer {
     padding: 0 50px; 
     /* padding-left: 10px; */
     /* padding-right: 10px; */
@@ -82,13 +82,13 @@ a {
     flex-shrink: 0;
 }
 
-.content-1 {
+.content-1, .content-3 {
     background-color: white;
 }
 
 .content-title {
     border: 1px solid green;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .content-2 {
@@ -105,4 +105,11 @@ a {
     font-style: italic;
 }
   
+.blue-box {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 20px;
+    margin: 20px;
+}
+
 
