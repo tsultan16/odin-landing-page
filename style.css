@@ -65,13 +65,17 @@ a {
 
     border: 1px solid red;
     height: 300px;
-    width: 400px; 
+    width: 450px; 
 }
 
 .hero-image {
     background-color: darkgrey;
     height: 300px;
     width: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -90,11 +94,11 @@ a {
 .hero-button {
     background-color: #3882f6;
     color: #E5E7EB;
-    font-weight: 600;
-    padding: 6px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 26px;
     border-radius: 6px;
 }
-
 
 
 .content-1, .content-3 {
@@ -102,8 +106,8 @@ a {
 }
 
 .content-1 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .content-title {
@@ -113,7 +117,7 @@ a {
     color: #1F2937;
     text-align: center;
 
-    padding: 20px;
+    padding-bottom: 40px;
 }
 
 .images {
@@ -131,6 +135,7 @@ a {
 img {
     width: 140px;
     height: 140px;
+    border-radius: 6px;
 }
 
 .content-2 {
@@ -146,6 +151,12 @@ img {
     border: 1px solid blue;
     font-size: 36px;
     font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
   
 .blue-box {
