@@ -11,7 +11,7 @@ body {
 }
 
 .header, .hero, .content-1, .content-2, .content-3, .footer {
-    padding: 0 50px; 
+    padding: 10px 100px; 
     /* padding-left: 10px; */
     /* padding-right: 10px; */
 
@@ -53,44 +53,60 @@ a {
     border: 1px solid blue;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .hero-main {
+
     border: 1px solid red;
+    height: 200px;
+
+    /* width: 400px; */
 }
 
+.hero-image {
+    background-color: darkgrey;
+    height: 200px;
+    width: 500px;
+
+}
 
 .hero-main-text {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: 600;
+    padding: 6px 20px;
 }
 
 
-.hero-image {
-    background-color: darkgrey;
-    width: 300px;
-    height: 150px;
-
-    flex-shrink: 0;
-}
 
 .content-1, .content-3 {
     background-color: white;
 }
 
 .content-title {
+    border: 1px solid green;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    border: 1px solid green;
+    text-align: center;
+
     padding: 20px;
 }
 
